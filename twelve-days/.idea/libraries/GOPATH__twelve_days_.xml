@@ -1,11 +1,15 @@
 <component name="libraryTable">
-  <library name="GOPATH &lt;age&gt;">
+  <library name="GOPATH &lt;twelve-days&gt;">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../twelve_days" />
+      <root url="file://$PROJECT_DIR$/../age" />
       <root url="file://$PROJECT_DIR$/../.git" />
       <root url="file://$PROJECT_DIR$/../countdown" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/../twelve_days" />
+      <root url="file://$PROJECT_DIR$/../age" />
       <root url="file://$PROJECT_DIR$/../.git" />
       <root url="file://$PROJECT_DIR$/../countdown" />
     </SOURCES>
