@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;ByValueOrReference&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../age" />
+      <root url="file://$PROJECT_DIR$/../.git" />
+      <root url="file://$PROJECT_DIR$/../countdown" />
+      <root url="file://$PROJECT_DIR$/../twelve-days" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../age" />
+      <root url="file://$PROJECT_DIR$/../.git" />
+      <root url="file://$PROJECT_DIR$/../countdown" />
+      <root url="file://$PROJECT_DIR$/../twelve-days" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
