@@ -11,8 +11,11 @@ func add_groccery(a string) {
 
 func list_groceries() {
 	fmt.Println("Grocery list is as follow:")
-	for i := 0; i < len(g_groceries); i++ {
+	/*for i := 0; i < len(g_groceries); i++ {
 		fmt.Println(g_groceries[i])
+	}*/
+	for _, data := range g_groceries {
+		fmt.Println(data)
 	}
 }
 
