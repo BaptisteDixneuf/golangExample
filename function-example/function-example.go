@@ -2,18 +2,18 @@ package main
 
 import "fmt"
 
-func max(i int, j int, k int) {
-	fmt.Println(&k)
+func max(i int, j int, k *int) {
+	fmt.Println(k)
 	if i > j {
-		k = i
+		*k = i
 	} else {
-		k = j
+		*k = j
 	}
 }
 
 func main() {
 	var c int
 	fmt.Println(&c)
-	max(10, 15, c)
+	max(10, 15, &c)
 	fmt.Println(c)
 }
