@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func max(i int, j int) int {
-	if(i>j){
-		fmt.Println(i)
-	}else {
-		fmt.Println(j)
+	if i > j {
+		return i
+	} else {
+		return j
 	}
 }
 
 func main() {
-	max(10,15)
+	fmt.Println(max(10, 15))
 }
